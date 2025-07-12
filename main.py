@@ -6,6 +6,7 @@ from train_model import train_and_evaluate  # ✅ new import
 # === Load both datasets ===
 X1, y1 = vectorize_text("data.csv")
 X2, y2 = vectorize_text("data1.csv")
+#x3, y3 = vectorize_text("data2.csv")
 
 # === Train & Evaluate ===
 model1, acc1 = train_and_evaluate(X1, y1)
